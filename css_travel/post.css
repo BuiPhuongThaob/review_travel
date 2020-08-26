@@ -1,0 +1,58 @@
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(6, 32, 71, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before {
+    content: 'Uploaded image result';
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+}
+
+.file-field.big .file-path-wrapper {
+    height: 3.2rem; }
+.file-field.big .file-path-wrapper .file-path {
+height: 3rem; }
+
+.uploat_img {
+    display: none;
+}
+
+#img_button:hover {
+    color: rgba(6, 32, 71, 0.7);
+    cursor: move;
+}
+
+.input_post {
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+}
+.select_prov {
+    width: 500px;
+    margin-left: 30px;
+    padding-left: 30px;
+}
