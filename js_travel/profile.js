@@ -5,7 +5,7 @@ function readURL(event) {
         var reader = new FileReader();
 
         reader.addEventListener('load', function () {
-            document.getElementById('avt_img').src = reader.result;
+            document.getElementById('avt_img_edit').src = reader.result;
         });
         reader.readAsDataURL(input.files[0]);
     }
