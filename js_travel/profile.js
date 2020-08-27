@@ -1,11 +1,11 @@
-var input = document.getElementById( 'input_avt' );
+var input = document.getElementById( 'input-avt' );
 
 function readURL(event) {
     if (event.target.files && event.target.files[0]) {
         var reader = new FileReader();
 
         reader.addEventListener('load', function () {
-            document.getElementById('avt_img_edit').src = reader.result;
+            document.getElementById('avt-img-edit').src = reader.result;
         });
         reader.readAsDataURL(input.files[0]);
     }
