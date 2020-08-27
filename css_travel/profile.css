@@ -71,26 +71,26 @@
     border-bottom-color: #fff;
 }
 
-.avt_center {
+.avt-center {
     text-align: center;
 }
 
-.avt_image {
+.avt-image {
     width: 200px;
     height: 200px;
     border: 3px solid rgba(57, 64, 73, 0.9);
     margin-top: 30px;
 }
 
-.card_user_avt {
+.card-user-avt {
     margin-top: 20px;
     margin-left: 50px;
 }
 
-.css_title {
+.css-title {
     height: 500px;
 }
-.css_of_title {
+.css-of-title {
     height: 150px;
     position: absolute;
 }
